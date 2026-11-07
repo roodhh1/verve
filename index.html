@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Verve By the Glass</title>
+<meta name="robots" content="noindex,nofollow">
 <meta name="description" content="Verve Wine SF's weekly by-the-glass pours, worked through the WSET Level 3 Systematic Approach to Tasting.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -114,6 +115,8 @@ h2.page{font-family:var(--display);font-weight:600;font-size:clamp(26px,6vw,36px
 footer{border-top:1px solid var(--line)}
 footer .inner{padding-block:20px 28px;font-size:13px;color:var(--muted);display:grid;gap:4px}
 footer a{color:inherit}
+.conf{color:var(--ink)}
+.conf b{color:var(--marble)}
 @media (max-width:440px){.factor{grid-template-columns:1fr;gap:2px}.row{grid-template-columns:1fr;gap:4px}}
 @media (prefers-reduced-motion:no-preference){section.panel{animation:in .25s ease-out}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
 </style>
@@ -132,7 +135,8 @@ footer a{color:inherit}
   <div class="state"><h2>Loading the library…</h2><p>Each week's wines, newest first.</p></div>
 </div></main>
 <footer class="gutter"><div class="inner">
-  <div>Study notes by Rodrigo Hernandez for the Verve team. Profiles come from labels, producer notes and regional style: taste each pour and adjust.</div>
+  <div class="conf"><b>For Verve Wine staff only.</b> Internal study notes for the team. Please don't share outside Verve, post publicly or forward to customers.</div>
+  <div>Prepared by Rodrigo Hernandez. Profiles come from labels, producer notes and regional style: taste each pour and adjust. Not an official Verve or WSET publication.</div>
 </div></footer>
 
 <script>
@@ -141,6 +145,9 @@ const TYPE={white:"White",rose:"Rosé",red:"Red"};
 let WEEKS=[]; let typeFilter="all";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const today=(()=>{const n=new Date();return n.getFullYear()+"-"+String(n.getMonth()+1).padStart(2,"0")+"-"+String(n.getDate()).padStart(2,"0")})();
+const currentWeek=()=>WEEKS.find(w=>String(w.weekOf)<=today)||WEEKS[WEEKS.length-1];
+const capOf=w=>String(w.weekOf)>today?"Upcoming":(currentWeek()&&currentWeek().id===w.id?"This week":"");
 const md=d=>{const [y,m,day]=String(d).split("-").map(Number);return m+"/"+day};
 
 function scale(n,labels){if(!n)return "—";return `<div class="scale"><div class="pips p${labels.length}">${labels.map((_,i)=>`<i class="${i<n?'on':''}"></i>`).join("")}</div><span>${labels[n-1]}</span></div>`}
@@ -193,14 +200,14 @@ function parse(){
  const h=location.hash.slice(1);
  if(h==="library")return {view:"library"};
  const i=h.indexOf("-"); const wid=i<0?h:h.slice(0,i); const sub=i<0?"":h.slice(i+1);
- const wk=WEEKS.find(w=>w.id===wid)||WEEKS[0];
+ const wk=WEEKS.find(w=>w.id===wid)||currentWeek();
  if(!wk)return {view:"empty"};
  const sel=(wk.wines||[]).some(w=>w.id===sub)||sub==="lineup"?sub:(wk.wines&&wk.wines[0]?wk.wines[0].id:"lineup");
  return {view:"week",wk,sel};
 }
 function render(){
  const r=parse();
- $("weeks").innerHTML=WEEKS.map((w,i)=>`<button class="wk" data-week="${w.id}" aria-pressed="${r.view==="week"&&r.wk.id===w.id}" aria-label="${esc(w.label)}"><span class="dot">${md(w.weekOf)}</span><span class="cap">${i===0?"Latest":""}</span></button>`).join("")+(WEEKS.length?`<button class="wk lib" data-lib aria-pressed="${r.view==="library"}"><span class="dot">ALL</span><span class="cap">Library</span></button>`:"");
+ $("weeks").innerHTML=WEEKS.map((w,i)=>`<button class="wk" data-week="${w.id}" aria-pressed="${r.view==="week"&&r.wk.id===w.id}" aria-label="${esc(w.label)}"><span class="dot">${md(w.weekOf)}</span><span class="cap">${capOf(w)}</span></button>`).join("")+(WEEKS.length?`<button class="wk lib" data-lib aria-pressed="${r.view==="library"}"><span class="dot">ALL</span><span class="cap">Library</span></button>`:"");
  const wrap=$("tabs-wrap"),tabs=$("tabs");
  if(r.view==="empty"){wrap.hidden=true;$("main").innerHTML=`<div class="state"><h2>No weeks yet</h2><p>New weeks appear here as they're added.</p></div>`;return}
  if(r.view==="library"){wrap.hidden=true;$("main").innerHTML=libraryHTML();return}
