@@ -3,64 +3,483 @@
  "label": "Week of Nov 16",
  "short": "Nov 16",
  "wines": [
-  {"id":"jacquere","short":"Jacquère","type":"white","price":13,"wine":"#ECE8B4",
-   "name":"Camille & Mathieu Apffel Avant la Tempête 2024","sub":"Vin de Savoie · Savoie, French Alps",
-   "facts":[["Grape","100% Jacquère"],["Vines","30–70 years old, 250–350 m"],["Soil","Clay-limestone with glacial schist and quartz"],["ABV","11.5% · no added sulfur, unfiltered"]],
-   "flag":"<b>Low-intervention wine: check its condition.</b> No added sulfur and no filtration, so a slight haze or a hint of reduction is normal for the style. Vinegar, cider or mousy notes would be faults. The name means \"before the storm\". Camille and Mathieu farm about 5 ha themselves, with no employees.",
-   "factors":[["Climate","Cool, Alpine. The vines sit at the foot of Mont Granier, south of Chambéry. Mountain air and cold nights keep alcohol low and acidity very high."],["Soil","Clay-limestone scattered with schist and quartz left by retreating glaciers. Free-draining, poor soils give a lean, stony wine."],["Grape","Jacquère: Savoie's main white grape. Neutral, light and high in acid, with citrus, green apple, white flowers and a mineral, almost salty finish."],["Winemaking","Native-yeast fermentation, nothing added, bottled unfiltered without sulfur. A hands-off approach that keeps the wine taut and pure."],["Producers","Mathieu grew up in the Jura and moved to Savoie in 2013; he bought vines and a cellar in 2017. Camille joined in 2020. Organic and biodynamic farming."]],
-   "sat":{"app":"Pale lemon (may show a slight haze: unfiltered)","nose":{"int":3,"dev":"Youthful","prim":["lemon","green apple","white pear","white flowers","Alpine herbs","wet stone","saline"],"sec":[],"ter":[]},
-    "pal":{"sweet":"Dry","acid":5,"alc":2,"body":1,"fi":3,"fin":3,"chars":["lemon","green apple","herbs","mineral"]}},
-   "concl":"<b>Good to very good.</b> Light and racy, with clean citrus fruit balanced by mineral length; simple but very precise.",
-   "ready":"Drink now. Not intended for long ageing.",
-   "exam":["Savoie: Alpine, cool continental; Jacquère is the main white, with crus like Apremont and Abymes.","Compare with Ferrando's Erbaluce (Nov 3): two Alpine-foothill whites on glacial soils, both high acid and light body.","SAT condition: clean vs faulty. Practise telling natural-wine character (haze, reduction that blows off) from real faults (volatile acidity, mousiness)."],
-   "pair":["Raclette, fondue","Lake fish, trout","Oysters, goat cheese"],
-   "say":"Mountain white from the French Alps: light, crisp, lemony and stony. Made with nothing added. Great with cheese."},
-  {"id":"lafon","short":"Bourgogne Blanc","type":"white","price":20,"wine":"#EAD98C",
-   "name":"Guillaume Lafon Bourgogne Blanc 2024","sub":"Bourgogne AOC · Côte de Beaune, Burgundy, France",
-   "facts":[["Grape","100% Chardonnay"],["Parcels","Les Grandes Coutures (Meursault), Les Femelottes (Puligny)"],["Producer","Guillaume Lafon, son of Dominique Lafon"],["Farming","Organic & biodynamic"]],
-   "flag":"<b>Lafon as in Comtes Lafon.</b> Dominique Lafon, of the famous Meursault estate Domaine des Comtes Lafon, started this separate project in 2008. His son Guillaume joined in 2023, and <b>2024 is the first vintage under Guillaume's own name</b>. Les Femelottes is the same Puligny site as Alvina Pernot's other Bourgogne.",
-   "factors":[["Site","Two parcels in Meursault and Puligny-Montrachet, just outside the village appellations. Village-level terroir sold as Bourgogne."],["Vintage","2024 whites had a wet spring with mildew and poor flowering, then sun from July. Yields fell about 25–40%. The wines are cooler, finer and lower in alcohol, with clear acidity."],["Grape","Chardonnay: neutral and site-expressive. Meursault leans rich and nutty; Puligny leans taut and floral."],["Winemaking","Whole-cluster pressed (gentle, fewer bitter phenolics), native yeasts, about 12 months in barrel with no new oak, then a short rest in tank. Little or no lees stirring."],["Producer","Made at Château de Bligny-lès-Beaune. Horse ploughing and electric tractors in the vineyards."]],
-   "sat":{"app":"Pale lemon","nose":{"int":4,"dev":"Youthful","prim":["lemon","green apple","white peach","pear","white flowers","wet stone"],"sec":["subtle toast / hazelnut (used barrels)","light cream (MLF)"],"ter":[]},
-    "pal":{"sweet":"Dry","acid":4,"alc":2,"body":3,"fi":4,"fin":4,"chars":["citrus","white peach","hazelnut","mineral"]}},
-   "concl":"<b>Very good.</b> Crisp 2024 acidity balanced by ripe fruit and gentle barrel texture; more depth and length than most regional whites.",
-   "ready":"Can drink now, but has potential for ageing (3–5 years).",
-   "exam":["White Burgundy toolkit: whole-cluster pressing, barrel fermentation, MLF, lees ageing. Here: no new oak, little stirring.","Meursault vs Puligny style: richer and nuttier vs tighter and more floral.","The library now has three 2024 Côte de Beaune whites and reds: Pernot, Guérin and Lafon."],
-   "pair":["Roast chicken","Scallops, lobster","Gougères, Comté"],
-   "say":"Meursault and Puligny fruit from the Lafon family, the son's first vintage, at a Bourgogne price."},
-  {"id":"odetolulu","short":"Ode to Lulu","type":"rose","price":11,"wine":"#F3C4B2",
-   "name":"Bedrock Ode to Lulu Rosé 2025","sub":"California · Contra Costa & Sonoma, USA",
-   "facts":[["Grapes","79% Mourvèdre, 18% Carignan, 3% Grenache"],["Vines","Mourvèdre: 100+ year old, own-rooted"],["Producer","Bedrock Wine Co., Sonoma"],["Style","Dry rosé, steel only"]],
-   "flag":"<b>Taste it next to last week's Gros 'Noré.</b> The wine is an homage to Lulu Peyraud of Domaine Tempier, Bandol's most famous estate: California Mourvèdre made in the Bandol spirit. The 2025 blend is from the producer; one critic lists less Carignan.",
-   "factors":[["Climate","Warm Mediterranean. Contra Costa County sits inland from San Francisco Bay, hot by day with Delta breezes in the evening. Mourvèdre needs that heat to ripen."],["Soil","Deep sand in Contra Costa (Oakley). Phylloxera can't survive in sand, so the vines are own-rooted and over a century old: low yields and concentrated fruit."],["Grapes","Mourvèdre gives structure, savoury herbs and red fruit. Carignan adds acidity and bright fruit; a touch of Grenache adds body."],["Winemaking","Picked early for low alcohol, whole-cluster pressed (direct to juice, pale colour), native yeasts, fermented and aged only in stainless steel."],["Producer","Bedrock is known for rescuing California's heritage vineyards, many planted before Prohibition."]],
-   "sat":{"app":"Pale salmon","nose":{"int":4,"dev":"Youthful","prim":["wild strawberry","white cherry","white peach","melon","citrus peel","garrigue herbs","wet stone"],"sec":[],"ter":[]},
-    "pal":{"sweet":"Dry","acid":5,"tan":1,"alc":2,"body":3,"fi":4,"fin":4,"chars":["strawberry","peach","melon","herbal"]}},
-   "concl":"<b>Very good.</b> Ripe fruit balanced by succulent acidity; herbal and stony notes and a long finish lift it above simple rosé.",
-   "ready":"Drink now. Can hold a year or two.",
-   "exam":["US labelling: a \"California\" appellation needs 100% California fruit; an AVA needs 85% from that AVA. Multi-county blends use \"California\".","Sandy soils resist phylloxera, which is why old own-rooted vines survive in Contra Costa (and in Colares, Portugal).","Three Mourvèdre-family links in the library: Gros 'Noré Bandol (Nov 9), this homage, and Bandol's 50% Mourvèdre rule for reds."],
-   "pair":["Grilled shrimp, fish tacos","Niçoise salad","Charcuterie, olives"],
-   "say":"California's love letter to Bandol: century-old Mourvèdre made into a pale, crisp rosé. The best $11 pour on the list."},
-  {"id":"frappato","short":"Frappato","type":"red","price":20,"wine":"#B43A47",
-   "name":"Arianna Occhipinti Frappato 2025","sub":"Terre Siciliane IGT · Vittoria, Sicily, Italy",
-   "facts":[["Grape","Frappato"],["Producer","Arianna Occhipinti, Vittoria (founded 2004)"],["Soil","Sand over white limestone, 250–280 m"],["Farming","Organic & biodynamic, native yeast"]],
-   "flag":"<b>Check the label for the cuvée.</b> Occhipinti's flagship <b>Il Frappato</b> normally ages 12–16 months in large casks, so a 2025 on the shelf this early would be unusual. If the label says <b>SP68</b>, it's her younger, unoaked Frappato–Nero d'Avola blend, and the notes below will be fresher and simpler.",
-   "factors":[["Climate","Hot Mediterranean, but the Vittoria plateau at 250–280 m gets sea breezes and cool nights. Frappato keeps its acidity and perfume."],["Soil","Sand and white limestone on an ancient seabed. Sand gives a light, perfumed style; limestone adds freshness."],["Grape","Frappato: thin-skinned and pale, high in acidity, low in tannin, very aromatic (strawberry, pomegranate, rose, white pepper). Sicily's answer to Pinot Noir or Gamay."],["Winemaking","Il Frappato: up to 20% whole bunches, spontaneous fermentation in concrete, 2–4 weeks on skins with gentle extraction, then 12–16 months in large 5,000 L Slavonian and Austrian casks. Unfined, unfiltered, minimal sulfur."],["Producer","Arianna started in 2004 at 21, encouraged by her uncle Giusto Occhipinti of COS. She led Frappato's revival and is a leading name in natural Italian wine."]],
-   "sat":{"app":"Pale ruby","nose":{"int":4,"dev":"Youthful","prim":["strawberry","red cherry","pomegranate","blood orange","rose","violet","white pepper"],"sec":["subtle spice (large casks)"],"ter":[]},
-    "pal":{"sweet":"Dry","acid":4,"tan":2,"alc":2,"body":2,"fi":4,"fin":4,"chars":["red cherry","pomegranate","floral","pepper"]}},
-   "concl":"<b>Very good, possibly outstanding.</b> Intense, perfumed fruit on a light frame, fresh acidity and soft tannin in balance; long, floral finish.",
-   "ready":"Drink now. Can hold a few years.",
-   "exam":["Cerasuolo di Vittoria is Sicily's only DOCG: a Nero d'Avola–Frappato blend. Varietal Frappato is often labelled Terre Siciliane IGT.","Light reds: pale colour, high acid, low tannin. Serve a little cool (14–16°C).","Compare across the library: Guérin Pinot, Deux Flèches Gamay and this Frappato, three light reds from three climates."],
-   "pair":["Pasta alla Norma, tomato dishes","Grilled tuna or swordfish","Pizza, salumi"],
-   "say":"Sicily's answer to Pinot Noir: pale, perfumed and juicy, from the winemaker who put Frappato on the map."}
+  {
+   "id": "jacquere",
+   "short": "Jacquère",
+   "type": "white",
+   "price": 13,
+   "wine": "#ECE8B4",
+   "name": "Camille & Mathieu Apffel Avant la Tempête 2024",
+   "sub": "Vin de Savoie · Savoie, French Alps",
+   "facts": [
+    [
+     "Grape",
+     "100% Jacquère"
+    ],
+    [
+     "Vines",
+     "30–70 years old, 250–350 m"
+    ],
+    [
+     "Soil",
+     "Clay-limestone with glacial schist and quartz"
+    ],
+    [
+     "ABV",
+     "11.5% · no added sulfur, unfiltered"
+    ]
+   ],
+   "flag": "<b>Low-intervention wine: check its condition.</b> No added sulfur and no filtration, so a slight haze or a hint of reduction is normal for the style. Vinegar, cider or mousy notes would be faults. The name means \"before the storm\". Camille and Mathieu farm about 5 ha themselves, with no employees.",
+   "factors": [
+    [
+     "Climate",
+     "Cool, Alpine. The vines sit at the foot of Mont Granier, south of Chambéry. Mountain air and cold nights keep alcohol low and acidity very high."
+    ],
+    [
+     "Soil",
+     "Clay-limestone scattered with schist and quartz left by retreating glaciers. Free-draining, poor soils give a lean, stony wine."
+    ],
+    [
+     "Grape",
+     "Jacquère: Savoie's main white grape. Neutral, light and high in acid, with citrus, green apple, white flowers and a mineral, almost salty finish."
+    ],
+    [
+     "Winemaking",
+     "Native-yeast fermentation, nothing added, bottled unfiltered without sulfur. A hands-off approach that keeps the wine taut and pure."
+    ],
+    [
+     "Producers",
+     "Mathieu grew up in the Jura and moved to Savoie in 2013; he bought vines and a cellar in 2017. Camille joined in 2020. Organic and biodynamic farming."
+    ]
+   ],
+   "sat": {
+    "app": "Pale lemon (may show a slight haze: unfiltered)",
+    "nose": {
+     "int": 3,
+     "dev": "Youthful",
+     "prim": [
+      "lemon",
+      "green apple",
+      "white pear",
+      "white flowers",
+      "Alpine herbs",
+      "wet stone",
+      "saline"
+     ],
+     "sec": [],
+     "ter": []
+    },
+    "pal": {
+     "sweet": "Dry",
+     "acid": 5,
+     "alc": 2,
+     "body": 1,
+     "fi": 3,
+     "fin": 3,
+     "chars": [
+      "lemon",
+      "green apple",
+      "herbs",
+      "mineral"
+     ]
+    }
+   },
+   "concl": "<b>Good to very good.</b> Light and racy, with clean citrus fruit balanced by mineral length; simple but very precise.",
+   "ready": "Drink now. Not intended for long ageing.",
+   "exam": [
+    "Savoie: Alpine, cool continental; Jacquère is the main white, with crus like Apremont and Abymes.",
+    "Compare with Ferrando's Erbaluce (Nov 3): two Alpine-foothill whites on glacial soils, both high acid and light body.",
+    "SAT condition: clean vs faulty. Practise telling natural-wine character (haze, reduction that blows off) from real faults (volatile acidity, mousiness)."
+   ],
+   "pair": [
+    "Raclette, fondue",
+    "Lake fish, trout",
+    "Oysters, goat cheese"
+   ],
+   "say": "Mountain white from the French Alps: light, crisp, lemony and stony. Made with nothing added. Great with cheese.",
+   "geo": {
+    "frame": "france",
+    "lat": 45.53,
+    "lon": 5.95,
+    "place": "Saint-Baldoph",
+    "region": "Savoie"
+   }
+  },
+  {
+   "id": "lafon",
+   "short": "Bourgogne Blanc",
+   "type": "white",
+   "price": 20,
+   "wine": "#EAD98C",
+   "name": "Guillaume Lafon Bourgogne Blanc 2024",
+   "sub": "Bourgogne AOC · Côte de Beaune, Burgundy, France",
+   "facts": [
+    [
+     "Grape",
+     "100% Chardonnay"
+    ],
+    [
+     "Parcels",
+     "Les Grandes Coutures (Meursault), Les Femelottes (Puligny)"
+    ],
+    [
+     "Producer",
+     "Guillaume Lafon, son of Dominique Lafon"
+    ],
+    [
+     "Farming",
+     "Organic & biodynamic"
+    ]
+   ],
+   "flag": "<b>Lafon as in Comtes Lafon.</b> Dominique Lafon, of the famous Meursault estate Domaine des Comtes Lafon, started this separate project in 2008. His son Guillaume joined in 2023, and <b>2024 is the first vintage under Guillaume's own name</b>. Les Femelottes is the same Puligny site as Alvina Pernot's other Bourgogne.",
+   "factors": [
+    [
+     "Site",
+     "Two parcels in Meursault and Puligny-Montrachet, just outside the village appellations. Village-level terroir sold as Bourgogne."
+    ],
+    [
+     "Vintage",
+     "2024 whites had a wet spring with mildew and poor flowering, then sun from July. Yields fell about 25–40%. The wines are cooler, finer and lower in alcohol, with clear acidity."
+    ],
+    [
+     "Grape",
+     "Chardonnay: neutral and site-expressive. Meursault leans rich and nutty; Puligny leans taut and floral."
+    ],
+    [
+     "Winemaking",
+     "Whole-cluster pressed (gentle, fewer bitter phenolics), native yeasts, about 12 months in barrel with no new oak, then a short rest in tank. Little or no lees stirring."
+    ],
+    [
+     "Producer",
+     "Made at Château de Bligny-lès-Beaune. Horse ploughing and electric tractors in the vineyards."
+    ]
+   ],
+   "sat": {
+    "app": "Pale lemon",
+    "nose": {
+     "int": 4,
+     "dev": "Youthful",
+     "prim": [
+      "lemon",
+      "green apple",
+      "white peach",
+      "pear",
+      "white flowers",
+      "wet stone"
+     ],
+     "sec": [
+      "subtle toast / hazelnut (used barrels)",
+      "light cream (MLF)"
+     ],
+     "ter": []
+    },
+    "pal": {
+     "sweet": "Dry",
+     "acid": 4,
+     "alc": 2,
+     "body": 3,
+     "fi": 4,
+     "fin": 4,
+     "chars": [
+      "citrus",
+      "white peach",
+      "hazelnut",
+      "mineral"
+     ]
+    }
+   },
+   "concl": "<b>Very good.</b> Crisp 2024 acidity balanced by ripe fruit and gentle barrel texture; more depth and length than most regional whites.",
+   "ready": "Can drink now, but has potential for ageing (3–5 years).",
+   "exam": [
+    "White Burgundy toolkit: whole-cluster pressing, barrel fermentation, MLF, lees ageing. Here: no new oak, little stirring.",
+    "Meursault vs Puligny style: richer and nuttier vs tighter and more floral.",
+    "The library now has three 2024 Côte de Beaune whites and reds: Pernot, Guérin and Lafon."
+   ],
+   "pair": [
+    "Roast chicken",
+    "Scallops, lobster",
+    "Gougères, Comté"
+   ],
+   "say": "Meursault and Puligny fruit from the Lafon family, the son's first vintage, at a Bourgogne price.",
+   "geo": {
+    "frame": "france",
+    "lat": 46.98,
+    "lon": 4.77,
+    "place": "Meursault",
+    "region": "Côte de Beaune"
+   }
+  },
+  {
+   "id": "odetolulu",
+   "short": "Ode to Lulu",
+   "type": "rose",
+   "price": 11,
+   "wine": "#F3C4B2",
+   "name": "Bedrock Ode to Lulu Rosé 2025",
+   "sub": "California · Contra Costa & Sonoma, USA",
+   "facts": [
+    [
+     "Grapes",
+     "79% Mourvèdre, 18% Carignan, 3% Grenache"
+    ],
+    [
+     "Vines",
+     "Mourvèdre: 100+ year old, own-rooted"
+    ],
+    [
+     "Producer",
+     "Bedrock Wine Co., Sonoma"
+    ],
+    [
+     "Style",
+     "Dry rosé, steel only"
+    ]
+   ],
+   "flag": "<b>Taste it next to last week's Gros 'Noré.</b> The wine is an homage to Lulu Peyraud of Domaine Tempier, Bandol's most famous estate: California Mourvèdre made in the Bandol spirit. The 2025 blend is from the producer; one critic lists less Carignan.",
+   "factors": [
+    [
+     "Climate",
+     "Warm Mediterranean. Contra Costa County sits inland from San Francisco Bay, hot by day with Delta breezes in the evening. Mourvèdre needs that heat to ripen."
+    ],
+    [
+     "Soil",
+     "Deep sand in Contra Costa (Oakley). Phylloxera can't survive in sand, so the vines are own-rooted and over a century old: low yields and concentrated fruit."
+    ],
+    [
+     "Grapes",
+     "Mourvèdre gives structure, savoury herbs and red fruit. Carignan adds acidity and bright fruit; a touch of Grenache adds body."
+    ],
+    [
+     "Winemaking",
+     "Picked early for low alcohol, whole-cluster pressed (direct to juice, pale colour), native yeasts, fermented and aged only in stainless steel."
+    ],
+    [
+     "Producer",
+     "Bedrock is known for rescuing California's heritage vineyards, many planted before Prohibition."
+    ]
+   ],
+   "sat": {
+    "app": "Pale salmon",
+    "nose": {
+     "int": 4,
+     "dev": "Youthful",
+     "prim": [
+      "wild strawberry",
+      "white cherry",
+      "white peach",
+      "melon",
+      "citrus peel",
+      "garrigue herbs",
+      "wet stone"
+     ],
+     "sec": [],
+     "ter": []
+    },
+    "pal": {
+     "sweet": "Dry",
+     "acid": 5,
+     "tan": 1,
+     "alc": 2,
+     "body": 3,
+     "fi": 4,
+     "fin": 4,
+     "chars": [
+      "strawberry",
+      "peach",
+      "melon",
+      "herbal"
+     ]
+    }
+   },
+   "concl": "<b>Very good.</b> Ripe fruit balanced by succulent acidity; herbal and stony notes and a long finish lift it above simple rosé.",
+   "ready": "Drink now. Can hold a year or two.",
+   "exam": [
+    "US labelling: a \"California\" appellation needs 100% California fruit; an AVA needs 85% from that AVA. Multi-county blends use \"California\".",
+    "Sandy soils resist phylloxera, which is why old own-rooted vines survive in Contra Costa (and in Colares, Portugal).",
+    "Three Mourvèdre-family links in the library: Gros 'Noré Bandol (Nov 9), this homage, and Bandol's 50% Mourvèdre rule for reds."
+   ],
+   "pair": [
+    "Grilled shrimp, fish tacos",
+    "Niçoise salad",
+    "Charcuterie, olives"
+   ],
+   "say": "California's love letter to Bandol: century-old Mourvèdre made into a pale, crisp rosé. The best $11 pour on the list.",
+   "geo": {
+    "frame": "california",
+    "lat": 38.0,
+    "lon": -121.71,
+    "place": "Oakley",
+    "region": "Contra Costa"
+   }
+  },
+  {
+   "id": "frappato",
+   "short": "Frappato",
+   "type": "red",
+   "price": 20,
+   "wine": "#B43A47",
+   "name": "Arianna Occhipinti Frappato 2025",
+   "sub": "Terre Siciliane IGT · Vittoria, Sicily, Italy",
+   "facts": [
+    [
+     "Grape",
+     "Frappato"
+    ],
+    [
+     "Producer",
+     "Arianna Occhipinti, Vittoria (founded 2004)"
+    ],
+    [
+     "Soil",
+     "Sand over white limestone, 250–280 m"
+    ],
+    [
+     "Farming",
+     "Organic & biodynamic, native yeast"
+    ]
+   ],
+   "flag": "<b>Check the label for the cuvée.</b> Occhipinti's flagship <b>Il Frappato</b> normally ages 12–16 months in large casks, so a 2025 on the shelf this early would be unusual. If the label says <b>SP68</b>, it's her younger, unoaked Frappato–Nero d'Avola blend, and the notes below will be fresher and simpler.",
+   "factors": [
+    [
+     "Climate",
+     "Hot Mediterranean, but the Vittoria plateau at 250–280 m gets sea breezes and cool nights. Frappato keeps its acidity and perfume."
+    ],
+    [
+     "Soil",
+     "Sand and white limestone on an ancient seabed. Sand gives a light, perfumed style; limestone adds freshness."
+    ],
+    [
+     "Grape",
+     "Frappato: thin-skinned and pale, high in acidity, low in tannin, very aromatic (strawberry, pomegranate, rose, white pepper). Sicily's answer to Pinot Noir or Gamay."
+    ],
+    [
+     "Winemaking",
+     "Il Frappato: up to 20% whole bunches, spontaneous fermentation in concrete, 2–4 weeks on skins with gentle extraction, then 12–16 months in large 5,000 L Slavonian and Austrian casks. Unfined, unfiltered, minimal sulfur."
+    ],
+    [
+     "Producer",
+     "Arianna started in 2004 at 21, encouraged by her uncle Giusto Occhipinti of COS. She led Frappato's revival and is a leading name in natural Italian wine."
+    ]
+   ],
+   "sat": {
+    "app": "Pale ruby",
+    "nose": {
+     "int": 4,
+     "dev": "Youthful",
+     "prim": [
+      "strawberry",
+      "red cherry",
+      "pomegranate",
+      "blood orange",
+      "rose",
+      "violet",
+      "white pepper"
+     ],
+     "sec": [
+      "subtle spice (large casks)"
+     ],
+     "ter": []
+    },
+    "pal": {
+     "sweet": "Dry",
+     "acid": 4,
+     "tan": 2,
+     "alc": 2,
+     "body": 2,
+     "fi": 4,
+     "fin": 4,
+     "chars": [
+      "red cherry",
+      "pomegranate",
+      "floral",
+      "pepper"
+     ]
+    }
+   },
+   "concl": "<b>Very good, possibly outstanding.</b> Intense, perfumed fruit on a light frame, fresh acidity and soft tannin in balance; long, floral finish.",
+   "ready": "Drink now. Can hold a few years.",
+   "exam": [
+    "Cerasuolo di Vittoria is Sicily's only DOCG: a Nero d'Avola–Frappato blend. Varietal Frappato is often labelled Terre Siciliane IGT.",
+    "Light reds: pale colour, high acid, low tannin. Serve a little cool (14–16°C).",
+    "Compare across the library: Guérin Pinot, Deux Flèches Gamay and this Frappato, three light reds from three climates."
+   ],
+   "pair": [
+    "Pasta alla Norma, tomato dishes",
+    "Grilled tuna or swordfish",
+    "Pizza, salumi"
+   ],
+   "say": "Sicily's answer to Pinot Noir: pale, perfumed and juicy, from the winemaker who put Frappato on the map.",
+   "geo": {
+    "frame": "italy",
+    "lat": 36.95,
+    "lon": 14.53,
+    "place": "Vittoria",
+    "region": "Sicily"
+   }
+  }
  ],
- "lineup":{
-  "sub":"An Alpine natural white, Lafon-family Bourgogne Blanc, California's homage to Bandol rosé and Sicily's most famous Frappato.",
-  "rows":[["Apffel Avant la Tempête 2024","$13","11.5%","High","Light","None, no added sulfur","7–9°C / 45–48°F","Muscadet, Albariño, natural-wine fans"],
-   ["Bedrock Ode to Lulu 2025","$11","—","High","Medium","Steel only","8–10°C / 46–50°F","Provence- and Bandol-rosé drinkers"],
-   ["Guillaume Lafon Bourgogne Blanc 2024","$20","—","Medium(+)","Medium","Used barrels, 12 mo.","10–12°C / 50–54°F","Meursault and Chablis lovers"],
-   ["Occhipinti Frappato 2025","$20","—","Medium(+)","Medium(−)","Large casks (Il Frappato)","14–16°C / 57–61°F","Pinot Noir and Beaujolais fans"]],
-  "blocks":[
-   {"title":"Tasting order for a flight","items":["Avant la Tempête → Ode to Lulu → Lafon → Frappato.","The light Jacquère first; the rosé before the barrel-aged Chardonnay.","Serve the Frappato slightly cool and finish on it."]},
-   {"title":"Across the library","items":["Ode to Lulu vs Gros 'Noré Bandol (Nov 9): the homage vs the original. Both Mourvèdre-led and savoury.","Lafon vs Pernot Rue de Bois (Nov 3): both 2024 Bourgogne from Meursault and Puligny parcels, both in used barrels.","Jacquère vs Erbaluce (Nov 3): two Alpine-foothill whites on glacial soils.","Frappato, Gamay and Pinot Noir: the light-red trio."]}
+ "lineup": {
+  "sub": "An Alpine natural white, Lafon-family Bourgogne Blanc, California's homage to Bandol rosé and Sicily's most famous Frappato.",
+  "rows": [
+   [
+    "Apffel Avant la Tempête 2024",
+    "$13",
+    "11.5%",
+    "High",
+    "Light",
+    "None, no added sulfur",
+    "7–9°C / 45–48°F",
+    "Muscadet, Albariño, natural-wine fans"
+   ],
+   [
+    "Bedrock Ode to Lulu 2025",
+    "$11",
+    "—",
+    "High",
+    "Medium",
+    "Steel only",
+    "8–10°C / 46–50°F",
+    "Provence- and Bandol-rosé drinkers"
+   ],
+   [
+    "Guillaume Lafon Bourgogne Blanc 2024",
+    "$20",
+    "—",
+    "Medium(+)",
+    "Medium",
+    "Used barrels, 12 mo.",
+    "10–12°C / 50–54°F",
+    "Meursault and Chablis lovers"
+   ],
+   [
+    "Occhipinti Frappato 2025",
+    "$20",
+    "—",
+    "Medium(+)",
+    "Medium(−)",
+    "Large casks (Il Frappato)",
+    "14–16°C / 57–61°F",
+    "Pinot Noir and Beaujolais fans"
+   ]
+  ],
+  "blocks": [
+   {
+    "title": "Tasting order for a flight",
+    "items": [
+     "Avant la Tempête → Ode to Lulu → Lafon → Frappato.",
+     "The light Jacquère first; the rosé before the barrel-aged Chardonnay.",
+     "Serve the Frappato slightly cool and finish on it."
+    ]
+   },
+   {
+    "title": "Across the library",
+    "items": [
+     "Ode to Lulu vs Gros 'Noré Bandol (Nov 9): the homage vs the original. Both Mourvèdre-led and savoury.",
+     "Lafon vs Pernot Rue de Bois (Nov 3): both 2024 Bourgogne from Meursault and Puligny parcels, both in used barrels.",
+     "Jacquère vs Erbaluce (Nov 3): two Alpine-foothill whites on glacial soils.",
+     "Frappato, Gamay and Pinot Noir: the light-red trio."
+    ]
+   }
   ]
  }
 }

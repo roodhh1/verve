@@ -105,7 +105,14 @@
     "Grilled white fish",
     "Ceviche, sushi"
    ],
-   "say": "The Albariño El Bulli poured by the glass: lime, white peach and sea salt, with extra body from eight months on its lees."
+   "say": "The Albariño El Bulli poured by the glass: lime, white peach and sea salt, with extra body from eight months on its lees.",
+   "geo": {
+    "frame": "iberia",
+    "lat": 42.51,
+    "lon": -8.81,
+    "place": "Cambados",
+    "region": "Rías Baixas"
+   }
   },
   {
    "id": "vinzelles",
@@ -210,7 +217,14 @@
     "Roast chicken, veal in cream sauce",
     "Aged Comté"
    ],
-   "say": "A seven-year-old Mâconnais Chardonnay from 1975 vines, aged nearly two years in oak: rich pear, toast and hazelnut. Meursault-style richness at a fraction of the price."
+   "say": "A seven-year-old Mâconnais Chardonnay from 1975 vines, aged nearly two years in oak: rich pear, toast and hazelnut. Meursault-style richness at a fraction of the price.",
+   "geo": {
+    "frame": "france",
+    "lat": 46.27,
+    "lon": 4.78,
+    "place": "Vinzelles",
+    "region": "Mâconnais"
+   }
   },
   {
    "id": "bandol",
@@ -306,7 +320,14 @@
     "Salmon, swordfish, scallops",
     "Tapenade, fried snacks"
    ],
-   "say": "Provence rosé with backbone: Mourvèdre-led Bandol, savoury and salty, with blood orange and herbs. It can even age."
+   "say": "Provence rosé with backbone: Mourvèdre-led Bandol, savoury and salty, with blood orange and herbs. It can even age.",
+   "geo": {
+    "frame": "france",
+    "lat": 43.2,
+    "lon": 5.75,
+    "place": "La Cadière d'Azur",
+    "region": "Bandol"
+   }
   },
   {
    "id": "moulinavent",
@@ -402,7 +423,14 @@
     "Charcuterie, pâté",
     "Coq au vin, mushroom dishes"
    ],
-   "say": "The most serious Beaujolais cru, made like Burgundy: cherry and rose, with real grip from pink granite."
+   "say": "The most serious Beaujolais cru, made like Burgundy: cherry and rose, with real grip from pink granite.",
+   "geo": {
+    "frame": "france",
+    "lat": 46.18,
+    "lon": 4.74,
+    "place": "Romanèche-Thorins",
+    "region": "Moulin-à-Vent"
+   }
   }
  ],
  "lineup": {

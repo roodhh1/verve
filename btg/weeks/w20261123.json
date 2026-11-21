@@ -1,0 +1,481 @@
+{
+ "weekOf": "2026-11-23",
+ "label": "Week of Nov 23",
+ "short": "Nov 23",
+ "wines": [
+  {
+   "id": "furore",
+   "short": "Furore Bianco",
+   "type": "white",
+   "price": 17,
+   "wine": "#E9DF98",
+   "geo": {
+    "frame": "italy",
+    "lat": 40.62,
+    "lon": 14.55,
+    "place": "Furore",
+    "region": "Amalfi Coast"
+   },
+   "name": "Marisa Cuomo Furore Bianco",
+   "sub": "Costa d'Amalfi DOC Furore · Campania, Italy",
+   "facts": [
+    [
+     "Grapes",
+     "60% Falanghina, 40% Biancolella"
+    ],
+    [
+     "Vineyards",
+     "Terraces above the sea, 100–750 m"
+    ],
+    [
+     "Style",
+     "Dry white, steel only"
+    ],
+    [
+     "ABV",
+     "≈13.5%"
+    ]
+   ],
+   "flag": "<b>Same estate as the Rosato on Oct 28.</b> Furore Bianco is the white from Marisa Cuomo's home village, a step up from the basic Costa d'Amalfi Bianco and below the flagship Fiorduva. Vintage not in the email: check the bottle (the 2024 won Gambero Rosso's Tre Bicchieri).",
+   "factors": [
+    [
+     "Climate",
+     "Warm Mediterranean, but the vines hang on steep terraces from 100 to 750 m, with constant sea breezes and cool nights. Freshness survives the southern sun."
+    ],
+    [
+     "Soil",
+     "Limestone and dolomite rock, with thin soils carried up and walled onto terraces by hand: 'heroic' viticulture. Gives a salty, stony character."
+    ],
+    [
+     "Grapes",
+     "Falanghina (locally Biancazita): citrus, apple, white flowers, firm acidity. Biancolella (locally Biancatenera): floral, herbal, softer. The two are traditionally vinified together."
+    ],
+    [
+     "Winemaking",
+     "Fermented and kept in stainless steel, no oak. Bottled young to keep the fruit and saltiness."
+    ],
+    [
+     "Producer",
+     "Founded in 1980 by Andrea Ferraioli and Marisa Cuomo in Furore. Their work helped revive local grapes and shape the Costa d'Amalfi DOC."
+    ]
+   ],
+   "sat": {
+    "app": "Pale lemon",
+    "nose": {
+     "int": 4,
+     "dev": "Youthful",
+     "prim": [
+      "lemon",
+      "green apple",
+      "white peach",
+      "hawthorn flowers",
+      "Mediterranean herbs",
+      "sea spray"
+     ],
+     "sec": [],
+     "ter": [
+      "almond / hazelnut hints"
+     ]
+    },
+    "pal": {
+     "sweet": "Dry",
+     "acid": 4,
+     "alc": 2,
+     "body": 3,
+     "fi": 4,
+     "fin": 4,
+     "chars": [
+      "citrus",
+      "peach",
+      "almond",
+      "saline"
+     ]
+    }
+   },
+   "concl": "<b>Very good.</b> Fresh acidity and ripe Mediterranean fruit in balance; saline, nutty length gives more interest than most coastal whites.",
+   "ready": "Drink now. Can hold 2–3 years.",
+   "exam": [
+    "Campania whites on the spec: Fiano di Avellino and Greco di Tufo (DOCG). Falanghina is the everyday local grape.",
+    "Costa d'Amalfi DOC has three subzones: Furore, Ravello, Tramonti.",
+    "Compare with the Cuomo Rosato (Oct 28): same estate, same terraces, two colours."
+   ],
+   "pair": [
+    "Spaghetti alle vongole",
+    "Grilled octopus, fried anchovies",
+    "Buffalo mozzarella"
+   ],
+   "say": "The Amalfi Coast in a glass: lemon, white flowers and sea salt from cliffside terraces above the water."
+  },
+  {
+   "id": "sancerre",
+   "short": "Sancerre",
+   "type": "white",
+   "price": 20,
+   "wine": "#ECE6A8",
+   "geo": {
+    "frame": "france",
+    "lat": 47.3,
+    "lon": 2.84,
+    "place": "Sancerre",
+    "region": "Loire Valley"
+   },
+   "name": "Domaine Laporte Sancerre Les Garennes",
+   "sub": "Sancerre AOC · Central Loire, France",
+   "facts": [
+    [
+     "Grape",
+     "100% Sauvignon Blanc"
+    ],
+    [
+     "Site",
+     "Les Garennes, single vineyard south of Sancerre village"
+    ],
+    [
+     "Soil",
+     "Caillottes: stony Jurassic limestone"
+    ],
+    [
+     "Farming",
+     "Certified organic · ≈13%"
+    ]
+   ],
+   "flag": "<b>Les Garennes is grown on caillottes</b>, the small limestone pebbles that give Sancerre its lightest, most fragrant style. The estate, founded in 1850 in Saint-Satur, has belonged to the Bourgeois family of Chavignol since 1986. Vintage not in the email: check the bottle.",
+   "factors": [
+    [
+     "Climate",
+     "Cool continental, far from the sea. Short, sometimes cool summers keep acidity high and alcohol moderate."
+    ],
+    [
+     "Soil",
+     "Sancerre has three soils: caillottes (stony limestone), terres blanches (Kimmeridgian marl) and silex (flint). Caillottes give the most aromatic, early-drinking wines; flint gives smokier, tighter ones."
+    ],
+    [
+     "Grape",
+     "Sauvignon Blanc: aromatic, high acid, with citrus, green apple, gooseberry and grassy or flinty notes. In the Loire it's leaner and more mineral than in New Zealand."
+    ],
+    [
+     "Winemaking",
+     "Fermented and aged in stainless steel to protect fresh aromas. No oak."
+    ],
+    [
+     "Producer",
+     "Laporte vinifies each soil separately: Le Rochoy on flint, La Comtesse on marl, Les Garennes on caillottes."
+    ]
+   ],
+   "sat": {
+    "app": "Pale lemon, green glints",
+    "nose": {
+     "int": 4,
+     "dev": "Youthful",
+     "prim": [
+      "lemon",
+      "grapefruit",
+      "green apple",
+      "gooseberry",
+      "white flowers",
+      "cut grass",
+      "wet stone"
+     ],
+     "sec": [],
+     "ter": []
+    },
+    "pal": {
+     "sweet": "Dry",
+     "acid": 5,
+     "alc": 2,
+     "body": 2,
+     "fi": 4,
+     "fin": 4,
+     "chars": [
+      "citrus",
+      "green apple",
+      "gooseberry",
+      "chalky"
+     ]
+    }
+   },
+   "concl": "<b>Very good.</b> Pronounced, pure Sauvignon fruit balanced by high acidity and a chalky, mineral finish; clean and precise.",
+   "ready": "Drink now. Can hold 2–3 years.",
+   "exam": [
+    "Central Loire Sauvignon: Sancerre and Pouilly-Fumé, facing each other across the Loire. Pouilly-Fumé is known for flint (silex).",
+    "Sauvignon Blanc's aromas come from methoxypyrazines (green, grassy) and thiols (grapefruit, passion fruit). Cool climate favours the green side.",
+    "Steel fermentation at cool temperatures keeps aromatic varieties fresh."
+   ],
+   "pair": [
+    "Crottin de Chavignol (goat cheese)",
+    "Oysters, ceviche",
+    "Asparagus, green salads"
+   ],
+   "say": "Classic Sancerre from an organic single vineyard: grapefruit, gooseberry and chalk. The benchmark for Sauvignon Blanc."
+  },
+  {
+   "id": "monje",
+   "short": "Tenerife Tinto",
+   "type": "red",
+   "price": 11,
+   "wine": "#8E2F45",
+   "geo": {
+    "frame": "canarias",
+    "lat": 28.48,
+    "lon": -16.43,
+    "place": "El Sauzal",
+    "region": "Tenerife"
+   },
+   "name": "Bodegas Monje Tinto Amorio",
+   "sub": "Tenerife · Canary Islands, Spain",
+   "facts": [
+    [
+     "Grape",
+     "Listán Negro-based (check the label)"
+    ],
+    [
+     "Producer",
+     "Bodegas Monje, El Sauzal"
+    ],
+    [
+     "Soil",
+     "Volcanic"
+    ],
+    [
+     "Zone",
+     "Tacoronte-Acentejo, north Tenerife"
+    ]
+   ],
+   "flag": "<b>Check the back label.</b> Published details on the \"Amorio\" bottling are scarce. Monje's reds are built on Listán Negro, often with Negramoll, and some are made by carbonic maceration. The notes below describe the house style. The Monje family has made wine on Tenerife for generations, at La Hollera with views of Mount Teide.",
+   "factors": [
+    [
+     "Climate",
+     "Subtropical latitude, but the north side of Tenerife is cooled by trade winds and Atlantic cloud. Altitude on the volcano's slopes keeps the grapes fresh."
+    ],
+    [
+     "Soil",
+     "Young volcanic soils: dark, mineral, free-draining. Phylloxera never reached the Canaries, so many vines are ungrafted and very old."
+    ],
+    [
+     "Grape",
+     "Listán Negro: the island's main red. Light to medium body, red fruit, black pepper and a smoky, volcanic edge."
+    ],
+    [
+     "Winemaking",
+     "Young Tenerife reds are made to show fruit. Carbonic maceration (whole bunches fermenting under CO2) gives juicy fruit, soft tannin and sometimes banana or bubblegum notes."
+    ],
+    [
+     "Producer",
+     "Bodegas Monje sits at La Hollera in El Sauzal, in the Tacoronte-Acentejo zone on Tenerife's north coast, one of the island's best-known estates."
+    ]
+   ],
+   "sat": {
+    "app": "Medium ruby, purple rim",
+    "nose": {
+     "int": 3,
+     "dev": "Youthful",
+     "prim": [
+      "red cherry",
+      "raspberry",
+      "blackberry",
+      "black pepper",
+      "smoke / ash",
+      "aniseed"
+     ],
+     "sec": [],
+     "ter": []
+    },
+    "pal": {
+     "sweet": "Dry",
+     "acid": 4,
+     "tan": 2,
+     "alc": 2,
+     "body": 3,
+     "fi": 3,
+     "fin": 3,
+     "chars": [
+      "red fruit",
+      "pepper",
+      "smoky",
+      "mineral"
+     ]
+    }
+   },
+   "concl": "<b>Good to very good.</b> Juicy fruit, fresh acidity and soft tannin in balance; volcanic smokiness and pepper add personality.",
+   "ready": "Drink now. Not designed for long ageing.",
+   "exam": [
+    "Phylloxera-free regions: the Canary Islands, Chile, much of South Australia. Ungrafted vines are possible there.",
+    "Carbonic maceration: whole bunches under CO2, fermentation starts inside the berry. Soft tannin, fruity, kirsch and banana notes.",
+    "Altitude and trade winds explain fresh wines at a subtropical latitude."
+   ],
+   "pair": [
+    "Grilled meats, chorizo",
+    "Papas arrugadas with mojo",
+    "Mushroom dishes"
+   ],
+   "say": "Volcanic red from Tenerife, on the slopes of Mount Teide: juicy red fruit, pepper and a smoky edge. Island wine for $11."
+  },
+  {
+   "id": "ladoix",
+   "short": "Ladoix",
+   "type": "red",
+   "price": 20,
+   "wine": "#9C2A3E",
+   "geo": {
+    "frame": "france",
+    "lat": 47.07,
+    "lon": 4.89,
+    "place": "Ladoix",
+    "region": "Burgundy"
+   },
+   "name": "Domaine d'Ardhuy Ladoix Rouge",
+   "sub": "Ladoix AOC · Côte de Beaune, Burgundy, France",
+   "facts": [
+    [
+     "Grape",
+     "100% Pinot Noir"
+    ],
+    [
+     "Level",
+     "Village appellation"
+    ],
+    [
+     "Producer",
+     "Domaine d'Ardhuy, Corgoloin"
+    ],
+    [
+     "Farming",
+     "Organic"
+    ]
+   ],
+   "flag": "<b>Ladoix is a hidden-value village.</b> It sits at the northern tip of the Côte de Beaune, at the foot of the Corton hill, where the Côte de Beaune meets the Côte de Nuits. It's little known, so prices stay modest for village-level Burgundy. Vintage not in the email: check the bottle.",
+   "factors": [
+    [
+     "Climate",
+     "Moderate continental. Spring frost and hail are the main risks; vintage matters a lot in Burgundy."
+    ],
+    [
+     "Site",
+     "East- and south-facing slopes below the famous Corton hill (Grand Cru). Limestone and marl soils."
+    ],
+    [
+     "Grape",
+     "Pinot Noir: thin-skinned, pale, high acid, low to medium tannin, red fruit; earth and forest floor as it ages."
+    ],
+    [
+     "Winemaking",
+     "Aged in oak barrels. Village Burgundy usually sees some new oak but stays fruit-led."
+    ],
+    [
+     "Producer",
+     "Family estate on the border of the Côte de Beaune and Côte de Nuits, passed from father to daughters. Holdings run from Ladoix and Corton to Clos de Vougeot."
+    ]
+   ],
+   "sat": {
+    "app": "Pale ruby",
+    "nose": {
+     "int": 3,
+     "dev": "Youthful",
+     "prim": [
+      "red cherry",
+      "raspberry",
+      "redcurrant",
+      "violet"
+     ],
+     "sec": [
+      "light spice / vanilla (oak)"
+     ],
+     "ter": [
+      "earthy hints"
+     ]
+    },
+    "pal": {
+     "sweet": "Dry",
+     "acid": 4,
+     "tan": 3,
+     "alc": 2,
+     "body": 3,
+     "fi": 4,
+     "fin": 4,
+     "chars": [
+      "red cherry",
+      "raspberry",
+      "spice",
+      "earth"
+     ]
+    }
+   },
+   "concl": "<b>Very good.</b> Ripe red fruit, fresh acidity and fine, firm tannin in balance; more structure and length than a regional Bourgogne.",
+   "ready": "Can drink now, but has potential for ageing (5+ years).",
+   "exam": [
+    "Burgundy pyramid: this is village level (one step above Guérin's regional Hautes-Côtes from Oct 28).",
+    "Corton is the only red Grand Cru in the Côte de Beaune; Ladoix shares the hill.",
+    "Pinot Noir markers: pale colour, high acid, red fruit; firmer tannin points to a better site."
+   ],
+   "pair": [
+    "Roast duck, coq au vin",
+    "Mushroom dishes",
+    "Époisses, Comté"
+   ],
+   "say": "Village Burgundy from the foot of the Corton hill: cherry, raspberry and fine tannin, without the famous-name price."
+  }
+ ],
+ "lineup": {
+  "sub": "An Amalfi Coast white, an organic single-vineyard Sancerre, a volcanic Tenerife red and village Burgundy from Ladoix. Vintages weren't in the email: check each bottle.",
+  "rows": [
+   [
+    "Laporte Sancerre Les Garennes",
+    "$20",
+    "≈13%",
+    "High",
+    "Medium(−)",
+    "Steel",
+    "8–10°C / 46–50°F",
+    "Sauvignon and Chablis fans"
+   ],
+   [
+    "Cuomo Furore Bianco",
+    "$17",
+    "≈13.5%",
+    "Medium(+)",
+    "Medium",
+    "Steel",
+    "8–10°C / 46–50°F",
+    "Vermentino, Albariño, Greek-white drinkers"
+   ],
+   [
+    "Monje Tinto Amorio",
+    "$11",
+    "—",
+    "Medium(+)",
+    "Medium",
+    "Check label",
+    "14–16°C / 57–61°F",
+    "Beaujolais and light-red fans"
+   ],
+   [
+    "Ardhuy Ladoix Rouge",
+    "$20",
+    "—",
+    "Medium(+)",
+    "Medium",
+    "Oak barrels",
+    "15–16°C / 59–61°F",
+    "Burgundy and Pinot Noir lovers"
+   ]
+  ],
+  "blocks": [
+   {
+    "title": "Tasting order for a flight",
+    "items": [
+     "Sancerre → Furore Bianco → Tenerife → Ladoix.",
+     "The racy, light Sancerre first; the rounder Amalfi white second.",
+     "The juicy Tenerife red before the more structured Burgundy."
+    ]
+   },
+   {
+    "title": "Across the library",
+    "items": [
+     "Furore Bianco and the Cuomo Rosato (Oct 28): same estate, same cliffs.",
+     "Ladoix vs Guérin Hautes-Côtes (Oct 28): Burgundy village level vs regional level.",
+     "Tenerife and Moulin-à-Vent (Nov 9): two reds where carbonic maceration is part of the story."
+    ]
+   }
+  ]
+ }
+}

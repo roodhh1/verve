@@ -13,7 +13,7 @@
 /* Layout: Verve-blue poster header with circled week dates, sticky wine tabs on cream paper, one study card per wine in WSET L3 SAT order; Library indexes every week */
 :root{
   --paper:#F5F0E5; --card:#FFFDF8; --ink:#16204A; --muted:#5A6180; --line:#DCD5C4;
-  --blue:#22388F; --blue-ink:#F5F0E5; --blue-soft:#E3E7F4; --sun:#F2B632; --marble:#7B2C3B; --title:#22388F; --pip:#22388F;
+  --blue:#22388F; --blue-ink:#F5F0E5; --blue-soft:#E3E7F4; --sun:#F2B632; --marble:#7B2C3B; --title:#22388F; --pip:#22388F; --sea:#D9E3F1; --sea-ink:#22388F; --land:#FFFCF3; --land2:#EEE7D5; --coast:#22388F; --border2:#B9B09A;
   --display:"Oswald","Arial Narrow",Impact,sans-serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
@@ -21,10 +21,10 @@
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#0E1530; --card:#161F42; --ink:#EDE8DC; --muted:#A2A9C4; --line:#2A3563;
-  --blue:#2B44A8; --blue-ink:#F5F0E5; --blue-soft:#1E2A5A; --sun:#F2B632; --marble:#E59AAA; --title:#EDE8DC; --pip:#F2B632; color-scheme:dark}}
+  --blue:#2B44A8; --blue-ink:#F5F0E5; --blue-soft:#1E2A5A; --sun:#F2B632; --marble:#E59AAA; --title:#EDE8DC; --pip:#F2B632; --sea:#121B40; --sea-ink:#8FA2E0; --land:#25305E; --land2:#1A2450; --coast:#8FA2E0; --border2:#3A4677; color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#0E1530; --card:#161F42; --ink:#EDE8DC; --muted:#A2A9C4; --line:#2A3563;
-  --blue:#2B44A8; --blue-ink:#F5F0E5; --blue-soft:#1E2A5A; --sun:#F2B632; --marble:#E59AAA; --title:#EDE8DC; --pip:#F2B632; color-scheme:dark}
+  --blue:#2B44A8; --blue-ink:#F5F0E5; --blue-soft:#1E2A5A; --sun:#F2B632; --marble:#E59AAA; --title:#EDE8DC; --pip:#F2B632; --sea:#121B40; --sea-ink:#8FA2E0; --land:#25305E; --land2:#1A2450; --coast:#8FA2E0; --border2:#3A4677; color-scheme:dark}
 *{box-sizing:border-box}
 html{scroll-padding-top:70px}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -113,6 +113,37 @@ h2.page{font-family:var(--display);font-weight:600;font-size:clamp(26px,6vw,36px
 .state h2{font-family:var(--display);font-weight:600;text-transform:uppercase;font-size:22px;margin:0}
 .state p{margin:0;color:var(--muted)}
 footer{border-top:1px solid var(--line)}
+.where{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:16px;align-items:center}
+@media (max-width:620px){.where{grid-template-columns:1fr}}
+.mapfig{margin:0;min-width:0}
+.mapfig svg{display:block;width:100%;height:auto;max-height:440px;border-radius:6px}
+.where .wh{display:grid;gap:8px;align-content:start}
+.where .place{font-family:var(--display);font-weight:600;font-size:22px;text-transform:uppercase;letter-spacing:.02em;line-height:1.1}
+.where .reg{color:var(--muted);font-size:14px}
+.where .also{font-size:13px;color:var(--muted)}
+.where .also a{color:var(--title);font-weight:600}
+.where.stack{grid-template-columns:1fr}
+.where.stack .mapfig svg{max-height:560px}
+.where.stack .lib-grid{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))!important}
+.m-sea{fill:var(--sea)}.m-hatch{stroke:var(--sea-ink);stroke-opacity:.13;stroke-width:1}
+.m-wl1{fill:none;stroke:var(--sea-ink);stroke-opacity:.10;stroke-width:14;stroke-linejoin:round}
+.m-wl2{fill:none;stroke:var(--sea-ink);stroke-opacity:.16;stroke-width:6;stroke-linejoin:round}
+.m-other{fill:var(--land2);stroke:var(--border2);stroke-width:.8;stroke-linejoin:round}
+.m-focus{fill:var(--land);stroke:var(--coast);stroke-width:1.4;stroke-linejoin:round}
+.m-lake{fill:var(--sea);stroke:var(--coast);stroke-width:.6}
+.m-sealbl{font-family:var(--body);font-style:italic;font-size:17px;fill:var(--sea-ink);fill-opacity:.7;letter-spacing:.12em}
+.m-city{fill:var(--ink);fill-opacity:.75}.m-citylbl{font-family:var(--body);font-size:16px;fill:var(--ink);fill-opacity:.8;paint-order:stroke;stroke:var(--land);stroke-width:4px}
+.m-peak{fill:var(--ink);fill-opacity:.7}
+.m-pinlbl{font-family:var(--display);font-weight:600;font-size:25px;letter-spacing:.04em;text-transform:uppercase;fill:var(--ink);paint-order:stroke;stroke:var(--land);stroke-width:6px;stroke-linejoin:round}
+.m-pinsub{font-family:var(--body);font-style:italic;font-size:16px;fill:var(--ink);fill-opacity:.8;paint-order:stroke;stroke:var(--land);stroke-width:5px}
+.m-pin{stroke:var(--coast);stroke-width:2.5}.m-halo{fill-opacity:.28}
+.m-dot{stroke:var(--coast);stroke-width:2}
+.m-frame{fill:none;stroke:var(--coast);stroke-width:1.5}.m-frame2{fill:none;stroke:var(--coast);stroke-width:.7}
+.m-title{font-family:var(--display);font-weight:600;font-size:21px;letter-spacing:.3em;text-transform:uppercase;fill:var(--coast)}
+.m-title-bg{fill:var(--land)}
+.m-north{fill:var(--coast)}.m-north2{fill:var(--land);stroke:var(--coast);stroke-width:1.2}.m-nlbl{font-family:var(--display);font-weight:600;font-size:16px;fill:var(--coast)}
+.libmap{display:grid;gap:14px}
+.libmap .block{gap:12px}
 footer .inner{padding-block:20px 28px;font-size:13px;color:var(--muted);display:grid;gap:4px}
 footer a{color:inherit}
 .conf{color:var(--ink)}
@@ -139,10 +170,11 @@ footer a{color:inherit}
   <div>Prepared by Rodrigo Hernandez. Profiles come from labels, producer notes and regional style: taste each pour and adjust. Not an official Verve or WSET publication.</div>
 </div></footer>
 
+<script src="maps.js"></script>
 <script>
 const S={int:["Light","Medium(−)","Medium","Medium(+)","Pronounced"],std:["Low","Medium(−)","Medium","Medium(+)","High"],alc:["Low","Medium","High"],body:["Light","Medium(−)","Medium","Medium(+)","Full"],fin:["Short","Medium(−)","Medium","Medium(+)","Long"]};
 const TYPE={white:"White",rose:"Rosé",red:"Red"};
-let WEEKS=[]; let typeFilter="all";
+let WEEKS=[]; let typeFilter="all"; let libView="list";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const today=(()=>{const n=new Date();return n.getFullYear()+"-"+String(n.getMonth()+1).padStart(2,"0")+"-"+String(n.getDate()).padStart(2,"0")})();
@@ -154,13 +186,45 @@ function scale(n,labels){if(!n)return "—";return `<div class="scale"><div clas
 function tags(cat,a){return a&&a.length?`<div class="tags"><span class="cat">${cat}</span>${a.map(x=>`<span>${esc(x)}</span>`).join("")}</div>`:""}
 function row(k,v){return `<div class="row"><div class="k">${k}</div><div class="val">${v}</div></div>`}
 
-function wineHTML(w){
+let MAPID=0;
+function mapSVG(key,pts,opt){
+ const F=(window.BTG_MAPS||{})[key]; if(!F)return "";
+ const id="m"+(++MAPID), [lon0,lat0,lon1,lat1]=F.bbox, c=Math.cos((lat0+lat1)/2*Math.PI/180), k=F.w/((lon1-lon0)*c);
+ const P=(lat,lon)=>[(lon-lon0)*c*k,(lat1-lat)*k], W=F.w, H=F.h;
+ const main=pts.find(p=>p.main), mp=main?P(main.lat,main.lon):null;
+ let g=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(opt&&opt.label||F.title)}"><defs><pattern id="${id}h" width="9" height="9" patternUnits="userSpaceOnUse"><line class="m-hatch" x1="0" y1="4.5" x2="9" y2="4.5"/></pattern><clipPath id="${id}c"><rect width="${W}" height="${H}"/></clipPath></defs><g clip-path="url(#${id}c)">`;
+ g+=`<rect class="m-sea" width="${W}" height="${H}"/><rect width="${W}" height="${H}" fill="url(#${id}h)"/>`;
+ const land=F.other+F.focus;
+ g+=`<path class="m-wl1" d="${land}"/><path class="m-wl2" d="${land}"/><path class="m-other" d="${F.other}"/><path class="m-focus" d="${F.focus}"/>`;
+ if(F.lakes)g+=`<path class="m-lake" d="${F.lakes}"/>`;
+ (F.sea||[]).forEach(([n,x,y])=>{const an=x<W*.16?"start":x>W*.84?"end":"middle"; g+=`<text class="m-sealbl" x="${an==="start"?Math.max(x,16):an==="end"?Math.min(x,W-16):x}" y="${y}" text-anchor="${an}">${esc(n)}</text>`});
+ const near=(x,y,d)=>mp&&Math.hypot(x-mp[0],y-mp[1])<d;
+ (F.cities||[]).forEach(([n,x,y])=>{ if(near(x,y,70))return; const r=x>W*.78; g+=`<rect class="m-city" x="${x-3.5}" y="${y-3.5}" width="7" height="7"/><text class="m-citylbl" x="${r?x-9:x+9}" y="${y+5}" text-anchor="${r?"end":"start"}">${esc(n)}</text>`});
+ (F.peaks||[]).forEach(([n,x,y])=>{ g+=`<path class="m-peak" d="M${x-8},${y+6}L${x},${y-8}L${x+8},${y+6}Z"/><text class="m-citylbl" x="${x}" y="${y+24}" text-anchor="middle">${esc(n)}</text>`});
+ pts.filter(p=>!p.main).forEach(p=>{const [x,y]=P(p.lat,p.lon); const inner=`<circle class="m-dot" cx="${x}" cy="${y}" r="${opt&&opt.big?9:6.5}" fill="${esc(p.color)}"><title>${esc(p.title)}</title></circle>`; g+=p.href?`<a href="${p.href}">${inner}</a>`:inner});
+ if(main){const [x,y]=mp, left=x>W*.62; g+=`<circle class="m-halo" cx="${x}" cy="${y}" r="20" fill="${esc(main.color)}"/><circle class="m-pin" cx="${x}" cy="${y}" r="9.5" fill="${esc(main.color)}"/>`;
+  const tx=left?x-18:x+18, an=left?"end":"start"; g+=`<text class="m-pinlbl" x="${tx}" y="${y-2}" text-anchor="${an}">${esc(main.place)}</text><text class="m-pinsub" x="${tx}" y="${y+19}" text-anchor="${an}">${esc(main.region)}</text>`;}
+ g+=`<g transform="translate(${W-40},50)"><path class="m-north" d="M0,-30L7,0L0,-6Z"/><path class="m-north2" d="M0,-30L-7,0L0,-6Z"/><path class="m-north2" d="M0,22L7,0L0,6Z"/><path class="m-north" d="M0,22L-7,0L0,6Z"/><text class="m-nlbl" x="0" y="-36" text-anchor="middle">N</text></g>`;
+ const t=F.title.toUpperCase(), tl=t.length*16, tw=tl+30; g+=`<rect class="m-title-bg" x="14" y="${H-48}" width="${tw}" height="34"/><rect class="m-frame2" x="14" y="${H-48}" width="${tw}" height="34"/><text class="m-title" x="${14+15}" y="${H-24}" textLength="${tl}" lengthAdjust="spacing">${esc(t)}</text>`;
+ g+=`</g><rect class="m-frame" x="1" y="1" width="${W-2}" height="${H-2}"/><rect class="m-frame2" x="7" y="7" width="${W-14}" height="${H-14}"/></svg>`;
+ return g;
+}
+function whereHTML(w,wk){
+ if(!w.geo)return "";
+ const others=(wk.wines||[]).filter(o=>o!==w&&o.geo&&o.geo.frame===w.geo.frame);
+ const pts=[{...w.geo,main:true,color:w.wine},...others.map(o=>({...o.geo,color:o.wine,title:o.name,href:"#"+wk.id+"-"+o.id}))];
+ return `<div class="block"><h3>Where it's from<small>Map</small></h3><div class="where"><figure class="mapfig">${mapSVG(w.geo.frame,pts,{label:"Map showing "+w.geo.place+", "+w.geo.region})}</figure>
+ <div class="wh"><div class="lbl">Village / site</div><div class="place">${esc(w.geo.place)}</div><div class="reg">${esc(w.geo.region)} · ${esc((window.BTG_MAPS[w.geo.frame]||{}).title||"")}</div>
+ ${others.length?`<div class="also">Also on this map this week: ${others.map(o=>`<a href="#${wk.id}-${o.id}">${esc(o.short)}</a>`).join(", ")}</div>`:""}</div></div></div>`;
+}
+function wineHTML(w,wk){
  const s=w.sat||{},n=s.nose||{},p=s.pal||{};
  return `<section class="panel" role="tabpanel">
  <div class="idcard" style="--wine:${esc(w.wine)}"><div class="glass" aria-hidden="true"></div>
   <div><h2 class="wname">${esc(w.name)}</h2><div class="sub">${esc(w.sub)} · <b>$${esc(w.price)}</b> / glass</div></div></div>
  <div class="facts">${(w.facts||[]).map(f=>`<div><div class="lbl">${esc(f[0])}</div><div class="v">${esc(f[1])}</div></div>`).join("")}</div>
  ${w.flag?`<div class="flag">${w.flag}</div>`:""}
+ ${whereHTML(w,wk)}
  <div class="block"><h3>Why it tastes this way<small>Factors</small></h3>
   <div class="factors">${(w.factors||[]).map(f=>`<div class="factor"><div class="lbl">${esc(f[0])}</div><p>${esc(f[1])}</p></div>`).join("")}</div></div>
  <div class="block"><h3>Expected SAT<small>WSET L3</small></h3>
@@ -187,6 +251,16 @@ function lineupHTML(wk){
  ${(L.blocks||[]).map(b=>`<div class="block"><h3>${esc(b.title)}</h3>${b.items?`<ul class="tight">${b.items.map(i=>`<li>${esc(i)}</li>`).join("")}</ul>`:`<p>${esc(b.text)}</p>`}</div>`).join("")}
  </section>`;
 }
+function libMapHTML(){
+ const all=WEEKS.flatMap(wk=>(wk.wines||[]).filter(w=>w.geo&&(typeFilter==="all"||w.type===typeFilter)).map(w=>({wk,w})));
+ const order=["france","italy","iberia","canarias","california"];
+ const frames=order.filter(f=>all.some(x=>x.w.geo.frame===f));
+ if(!frames.length)return `<p class="note">No wines of this colour yet.</p>`;
+ return `<div class="libmap">${frames.map(f=>{const xs=all.filter(x=>x.w.geo.frame===f);
+  const pts=xs.map(({wk,w})=>({...w.geo,color:w.wine,title:w.name+" · "+wk.label,href:"#"+wk.id+"-"+w.id}));
+  return `<div class="block"><h3>${esc(window.BTG_MAPS[f].title)}<small>${xs.length} ${xs.length===1?"wine":"wines"}</small></h3><div class="where stack"><figure class="mapfig">${mapSVG(f,pts,{big:true})}</figure>
+  <div class="lib-grid" style="grid-template-columns:1fr">${xs.map(({wk,w})=>`<button class="lib-card" data-go="${wk.id}-${w.id}"><span class="sw" style="background:${esc(w.wine)}"></span><div><div class="nm">${esc(w.name)}</div><div class="rg">${esc(w.geo.place)} · ${esc(w.geo.region)} · ${esc(wk.short)}</div></div><span class="pr">$${esc(w.price)}</span></button>`).join("")}</div></div></div>`}).join("")}</div>`;
+}
 function libraryHTML(){
  const all=WEEKS.flatMap(wk=>(wk.wines||[]).map(w=>({wk,w})));
  const counts={all:all.length,white:0,rose:0,red:0}; all.forEach(x=>{if(counts[x.w.type]!=null)counts[x.w.type]++});
@@ -194,7 +268,8 @@ function libraryHTML(){
  const groups=WEEKS.map(wk=>{const ws=(wk.wines||[]).filter(w=>typeFilter==="all"||w.type===typeFilter);if(!ws.length)return "";
   return `<div class="lib-week"><h3>${esc(wk.label)}</h3><div class="lib-grid">${ws.map(w=>`<button class="lib-card" data-go="${wk.id}-${w.id}"><span class="sw" style="background:${esc(w.wine)}"></span><div><div class="nm">${esc(w.name)}</div><div class="rg">${esc((w.sub||"").split(" · ").slice(-1)[0])}</div></div><span class="pr">$${esc(w.price)}</span></button>`).join("")}</div></div>`}).join("");
  return `<section class="panel"><div><h2 class="page">Library</h2><div class="sub">${all.length} wines across ${WEEKS.length} ${WEEKS.length===1?"week":"weeks"}. Tap one to open its study card.</div></div>
- <div class="chips" role="group" aria-label="Filter by colour">${chips}</div>${groups||`<p class="note">No wines of this colour yet.</p>`}</section>`;
+ <div class="chips" role="group" aria-label="View">${["list","map"].map(v=>`<button class="chip" data-view="${v}" aria-pressed="${libView===v}">${v==="list"?"By week":"On the map"}</button>`).join("")}</div>
+ <div class="chips" role="group" aria-label="Filter by colour">${chips}</div>${libView==="map"?libMapHTML():(groups||`<p class="note">No wines of this colour yet.</p>`)}</section>`;
 }
 function parse(){
  const h=location.hash.slice(1);
@@ -214,13 +289,13 @@ function render(){
  const wk=r.wk; wrap.hidden=false;
  tabs.innerHTML=(wk.wines||[]).map(w=>`<button class="tab" role="tab" data-id="${w.id}" aria-selected="${r.sel===w.id}"><span class="sw" style="background:${esc(w.wine)}"></span>${esc(w.short)}<span class="pr">$${esc(w.price)}</span></button>`).join("")+`<button class="tab" role="tab" data-id="lineup" aria-selected="${r.sel==="lineup"}">Lineup</button>`;
  const w=(wk.wines||[]).find(x=>x.id===r.sel);
- $("main").innerHTML=w?wineHTML(w):lineupHTML(wk);
+ $("main").innerHTML=w?wineHTML(w,wk):lineupHTML(wk);
  const b=tabs.querySelector('[aria-selected="true"]'); if(b&&b.scrollIntoView)b.scrollIntoView({block:"nearest",inline:"nearest"});
 }
 function go(h){if(location.hash!=="#"+h)location.hash=h;else render()}
 $("weeks").addEventListener("click",e=>{const b=e.target.closest(".wk");if(!b)return;if(b.hasAttribute("data-lib"))go("library");else go(b.dataset.week)});
 $("tabs").addEventListener("click",e=>{const b=e.target.closest(".tab");if(!b)return;const r=parse();if(r.view==="week")go(r.wk.id+"-"+b.dataset.id)});
-$("main").addEventListener("click",e=>{const c=e.target.closest(".chip");if(c){typeFilter=c.dataset.type;render();return}
+$("main").addEventListener("click",e=>{const c=e.target.closest(".chip");if(c){if(c.dataset.view)libView=c.dataset.view;else typeFilter=c.dataset.type;render();return}
  const g=e.target.closest(".lib-card");if(g){go(g.dataset.go);window.scrollTo({top:0})}});
 window.addEventListener("hashchange",render);
 
