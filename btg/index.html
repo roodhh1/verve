@@ -237,7 +237,6 @@ function wineHTML(w,wk){
    ${row("Flavours",tags("",p.chars))}${row("Finish",scale(p.fin,S.fin))}
    <h4>Conclusions</h4>${row("Quality",w.concl||"")}${row("Readiness",esc(w.ready))}
   </div></div>
- <div class="block"><h3>Exam hooks</h3><ul class="tight">${(w.exam||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>
  <div class="block"><h3>On the floor</h3><p class="say">“${esc(w.say)}”</p>
   <div><div class="lbl" style="margin-bottom:6px">Pair with</div><div class="tags">${(w.pair||[]).map(x=>`<span>${esc(x)}</span>`).join("")}</div></div></div>
  </section>`;

@@ -64,11 +64,6 @@
  "wines": [
   {
    "concl": "<b>Very good, possibly outstanding.</b> High alcohol and Medium(+) body are balanced by high acidity; old-vine concentration gives intensity; almond bitterness and early development add complexity and length.",
-   "exam": [
-    "Classico = the historic core zone. Superiore = lower yields and higher minimum alcohol.",
-    "Riserva is the DOCG step up: Castelli di Jesi Verdicchio Riserva DOCG.",
-    "Alcohol on the SAT has only three levels: Low (under 11%), Medium (11–13.9%), High (14%+)."
-   ],
    "factors": [
     [
      "Site",
@@ -169,11 +164,6 @@
   },
   {
    "concl": "<b>Very good to outstanding.</b> High acidity survives full MLF and is framed by creamy lees texture; pronounced chalky-saline length; layered primary and secondary notes give complexity.",
-   "exam": [
-    "Full MLF and the acid is still high: proof of how naturally acidic Bical and a maritime climate are.",
-    "Large barrels (500–600 L) give texture and slow oxygen with little oak flavour, unlike 225 L barriques.",
-    "Bairrada is Portugal's maritime region, best known for tannic, high-acid Baga reds. Filipa's father, Luís Pato, is its most famous Baga champion."
-   ],
    "factors": [
     [
      "Climate",
@@ -276,11 +266,6 @@
   },
   {
    "concl": "<b>Very good.</b> More fruit and body than a pale Provençal rosé, kept fresh by Aglianico's acidity; the savoury, salty finish adds interest.",
-   "exam": [
-    "Rosé methods: direct pressing vs short maceration. Blending red and white is not permitted for EU still rosé.",
-    "Rosé colour terms on the SAT: pink, salmon, orange.",
-    "Campania: Aglianico → Taurasi DOCG; whites Fiano di Avellino and Greco di Tufo."
-   ],
    "factors": [
     [
      "Climate",
@@ -374,11 +359,6 @@
   },
   {
    "concl": "<b>Good to very good.</b> Pure, bright and balanced with fine tannins; lighter and simpler than village-level Burgundy, which fits both the appellation and the vintage.",
-   "exam": [
-    "Burgundy pyramid: Regional (Bourgogne, Hautes-Côtes) → Village → Premier Cru → Grand Cru.",
-    "Two Hautes-Côtes zones: de Nuits and de Beaune. Higher elevation = cooler = more acid, less body.",
-    "2024 is a textbook marginal-climate vintage: disease pressure, low yields, lighter wines."
-   ],
    "factors": [
     [
      "Site",
