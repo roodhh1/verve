@@ -6,7 +6,7 @@ Verve Wine SF's weekly by-the-glass pours, worked through the WSET Level 3 Syste
 - `btg/index.html` renders everything; each week's wines live in `btg/weeks/`. The site lives at /verve/btg/; the root and /BTG/ redirect there.
 - One JSON file per week, named `wYYYYMMDD.json` (start of the week), with `weekOf`, `label`, `short`, `wines[]` and `lineup`. Copy an existing week for the shape.
 - Add each new week's id to the front of `btg/weeks/index.json`. Never edit or delete past weeks: the page is a running library.
-- Wine `type` must be `white`, `rose` or `red` (drives the Library filter). `sat` values are 1-based indexes into the WSET scales (alcohol has 3 levels, the others 5).
+- Wine `type` must be `white`, `orange`, `rose` or `red` (drives the Library filter). `sat` values are 1-based indexes into the WSET scales (alcohol has 3 levels, the others 5).
 - Every wine has a `geo` field: `{frame, lat, lon, place, region}`. Frames are `france`, `italy`, `iberia`, `canarias`, `california`; add one in `tools/build_maps.py` (Natural Earth 1:50m, public domain) and rerun it to regenerate `btg/maps.js`.
 - Served by GitHub Pages from `main`, root folder.
 

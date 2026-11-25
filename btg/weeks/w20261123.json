@@ -16,7 +16,7 @@
     "place": "Furore",
     "region": "Amalfi Coast"
    },
-   "name": "Marisa Cuomo Furore Bianco",
+   "name": "Marisa Cuomo Furore Bianco 2024",
    "sub": "Costa d'Amalfi DOC Furore · Campania, Italy",
    "facts": [
     [
@@ -33,10 +33,10 @@
     ],
     [
      "ABV",
-     "≈13.5%"
+     "13.5%"
     ]
    ],
-   "flag": "<b>Same estate as the Rosato on Oct 28.</b> Furore Bianco is the white from Marisa Cuomo's home village, a step up from the basic Costa d'Amalfi Bianco and below the flagship Fiorduva. Vintage not in the email: check the bottle (the 2024 won Gambero Rosso's Tre Bicchieri).",
+   "flag": "<b>Same estate as the Rosato on Oct 28.</b> Furore Bianco is the white from Marisa Cuomo's home village, a step up from the basic Costa d'Amalfi Bianco and below the flagship Fiorduva. The 2024 won Gambero Rosso's Tre Bicchieri, its top award.",
    "factors": [
     [
      "Climate",
@@ -114,7 +114,7 @@
     "place": "Sancerre",
     "region": "Loire Valley"
    },
-   "name": "Domaine Laporte Sancerre Les Garennes",
+   "name": "Domaine Laporte Sancerre Les Garennes 2025",
    "sub": "Sancerre AOC · Central Loire, France",
    "facts": [
     [
@@ -131,10 +131,10 @@
     ],
     [
      "Farming",
-     "Certified organic · ≈13%"
+     "Certified organic · 13.5%"
     ]
    ],
-   "flag": "<b>Les Garennes is grown on caillottes</b>, the small limestone pebbles that give Sancerre its lightest, most fragrant style. The estate, founded in 1850 in Saint-Satur, has belonged to the Bourgeois family of Chavignol since 1986. Vintage not in the email: check the bottle.",
+   "flag": "<b>\"Terroir du Jurassique\" and the fossil shells on the label</b> point to the soil: Jurassic limestone formed from ancient seabeds, full of fossilised shells. Les Garennes grows on caillottes, the small limestone pebbles that give Sancerre its most fragrant style. Founded in 1850 in Saint-Satur, the estate has belonged to the Bourgeois family of Chavignol since 1986.",
    "factors": [
     [
      "Climate",
@@ -200,100 +200,96 @@
   },
   {
    "id": "monje",
-   "short": "Tenerife Tinto",
-   "type": "red",
+   "short": "Monje",
+   "type": "orange",
    "price": 11,
-   "wine": "#8E2F45",
+   "wine": "#E3A14B",
    "geo": {
-    "frame": "canarias",
-    "lat": 28.48,
-    "lon": -16.43,
-    "place": "El Sauzal",
-    "region": "Tenerife"
+    "frame": "california",
+    "lat": 38.61,
+    "lon": -122.87,
+    "place": "Healdsburg",
+    "region": "Sonoma County"
    },
-   "name": "Bodegas Monje Tinto Amorio",
-   "sub": "Tenerife · Canary Islands, Spain",
+   "name": "Tinto Amorio Monje Skin-Contact 2024",
+   "sub": "Amber wine · California, USA",
    "facts": [
     [
-     "Grape",
-     "Listán Negro-based (check the label)"
+     "Grapes",
+     "92% Gewürztraminer, 8% Zinfandel"
     ],
     [
-     "Producer",
-     "Bodegas Monje, El Sauzal"
+     "Skin contact",
+     "9 days"
     ],
     [
-     "Soil",
-     "Volcanic"
+     "Method",
+     "Native yeast, unfined, unfiltered"
     ],
     [
-     "Zone",
-     "Tacoronte-Acentejo, north Tenerife"
+     "ABV",
+     "12.4%"
     ]
    ],
-   "flag": "<b>Check the back label.</b> Published details on the \"Amorio\" bottling are scarce. Monje's reds are built on Listán Negro, often with Negramoll, and some are made by carbonic maceration. The notes below describe the house style. The Monje family has made wine on Tenerife for generations, at La Hollera with views of Mount Teide.",
+   "flag": "<b>Not a red, and not from Tenerife.</b> Tinto Amorio is the producer (a Healdsburg winery) and Monje is the cuvée. It's an <b>amber or \"orange\" wine</b>: white grapes fermented on their skins like a red. Serve it chilled. A slight haze is normal, since it's unfined and unfiltered.",
    "factors": [
     [
-     "Climate",
-     "Subtropical latitude, but the north side of Tenerife is cooled by trade winds and Atlantic cloud. Altitude on the volcano's slopes keeps the grapes fresh."
-    ],
-    [
-     "Soil",
-     "Young volcanic soils: dark, mineral, free-draining. Phylloxera never reached the Canaries, so many vines are ungrafted and very old."
-    ],
-    [
-     "Grape",
-     "Listán Negro: the island's main red. Light to medium body, red fruit, black pepper and a smoky, volcanic edge."
+     "Grapes",
+     "Gewürztraminer: pink-skinned and intensely aromatic (lychee, rose, ginger), naturally low in acid. The 8% Zinfandel adds red-berry fruit and a little colour."
     ],
     [
      "Winemaking",
-     "Young Tenerife reds are made to show fruit. Carbonic maceration (whole bunches fermenting under CO2) gives juicy fruit, soft tannin and sometimes banana or bubblegum notes."
+     "Nine days fermenting on the skins pulls colour, tannin and texture from them, as with a red wine. That's what makes it amber and gives it grip. Native yeast, no fining or filtering."
+    ],
+    [
+     "Climate",
+     "Grapes come from organic vineyards around California. Past vintages drew on Mendocino and San Luis Obispo, both cooler, coast-influenced areas that help Gewürztraminer keep some freshness."
     ],
     [
      "Producer",
-     "Bodegas Monje sits at La Hollera in El Sauzal, in the Tacoronte-Acentejo zone on Tenerife's north coast, one of the island's best-known estates."
+     "Tinto Amorio is a small Healdsburg winery, founded by a group of friends, making low-intervention wines from organic grapes. The blend changes each year: earlier Monje vintages were based on French Colombard."
     ]
    ],
    "sat": {
-    "app": "Medium ruby, purple rim",
+    "app": "Medium amber (slight haze: unfiltered)",
     "nose": {
-     "int": 3,
+     "int": 5,
      "dev": "Youthful",
      "prim": [
-      "red cherry",
-      "raspberry",
-      "blackberry",
-      "black pepper",
-      "smoke / ash",
-      "aniseed"
+      "lychee",
+      "rose petal",
+      "pink grapefruit",
+      "orange peel",
+      "ginger",
+      "red berries"
      ],
      "sec": [],
      "ter": []
     },
     "pal": {
      "sweet": "Dry",
-     "acid": 4,
+     "acid": 2,
      "tan": 2,
      "alc": 2,
      "body": 3,
-     "fi": 3,
+     "fi": 5,
      "fin": 3,
      "chars": [
-      "red fruit",
-      "pepper",
-      "smoky",
-      "mineral"
+      "lychee",
+      "citrus peel",
+      "rose",
+      "spice"
      ]
     }
    },
-   "concl": "<b>Good to very good.</b> Juicy fruit, fresh acidity and soft tannin in balance; volcanic smokiness and pepper add personality.",
-   "ready": "Drink now. Not designed for long ageing.",
+   "concl": "<b>Good to very good.</b> Pronounced aromatics and light tannic grip balance a softer acid frame; fun and characterful rather than complex.",
+   "ready": "Drink now. Not intended for ageing.",
    "pair": [
-    "Grilled meats, chorizo",
-    "Papas arrugadas with mojo",
-    "Mushroom dishes"
+    "Thai or Indian curries",
+    "Spicy noodles, dumplings",
+    "Washed-rind cheese, charcuterie"
    ],
-   "say": "Volcanic red from Tenerife, on the slopes of Mount Teide: juicy red fruit, pepper and a smoky edge. Island wine for $11."
+   "say": "A California orange wine: Gewürztraminer fermented on its skins, with lychee, rose and grapefruit, a bit of grip, and serve it chilled."
   },
   {
    "id": "ladoix",
@@ -308,7 +304,7 @@
     "place": "Ladoix",
     "region": "Burgundy"
    },
-   "name": "Domaine d'Ardhuy Ladoix Rouge",
+   "name": "Domaine d'Ardhuy Ladoix 2023",
    "sub": "Ladoix AOC · Côte de Beaune, Burgundy, France",
    "facts": [
     [
@@ -328,11 +324,11 @@
      "Organic"
     ]
    ],
-   "flag": "<b>Ladoix is a hidden-value village.</b> It sits at the northern tip of the Côte de Beaune, at the foot of the Corton hill, where the Côte de Beaune meets the Côte de Nuits. It's little known, so prices stay modest for village-level Burgundy. Vintage not in the email: check the bottle.",
+   "flag": "<b>Ladoix is a hidden-value village.</b> It sits at the northern tip of the Côte de Beaune, at the foot of the Corton hill, where the Côte de Beaune meets the Côte de Nuits. It's little known, so prices stay modest for village-level Burgundy. The domaine is based at Clos des Langres in Corgoloin, named on the label.",
    "factors": [
     [
-     "Climate",
-     "Moderate continental. Spring frost and hail are the main risks; vintage matters a lot in Burgundy."
+     "Vintage",
+     "2023 was one of Burgundy's hottest years on record, with a very large crop. The risk for reds was dilution; the good ones are charming and juicy, with bright red fruit and light, fine tannins. Approachable young."
     ],
     [
      "Site",
@@ -372,7 +368,7 @@
     "pal": {
      "sweet": "Dry",
      "acid": 4,
-     "tan": 3,
+     "tan": 2,
      "alc": 2,
      "body": 3,
      "fi": 4,
@@ -385,8 +381,8 @@
      ]
     }
    },
-   "concl": "<b>Very good.</b> Ripe red fruit, fresh acidity and fine, firm tannin in balance; more structure and length than a regional Bourgogne.",
-   "ready": "Can drink now, but has potential for ageing (5+ years).",
+   "concl": "<b>Very good.</b> Juicy red fruit, fresh acidity and fine tannin in balance; the generous 2023 style makes it open and charming now, with more structure than a regional Bourgogne.",
+   "ready": "Drink now. Can hold 3–5 years.",
    "pair": [
     "Roast duck, coq au vin",
     "Mushroom dishes",
@@ -396,12 +392,12 @@
   }
  ],
  "lineup": {
-  "sub": "An Amalfi Coast white, an organic single-vineyard Sancerre, a volcanic Tenerife red and village Burgundy from Ladoix. Vintages weren't in the email: check each bottle.",
+  "sub": "An Amalfi Coast white, an organic single-vineyard Sancerre, a California orange wine and village Burgundy from Ladoix.",
   "rows": [
    [
-    "Laporte Sancerre Les Garennes",
+    "Laporte Sancerre Les Garennes 2025",
     "$20",
-    "≈13%",
+    "13.5%",
     "High",
     "Medium(−)",
     "Steel",
@@ -409,9 +405,9 @@
     "Sauvignon and Chablis fans"
    ],
    [
-    "Cuomo Furore Bianco",
+    "Cuomo Furore Bianco 2024",
     "$17",
-    "≈13.5%",
+    "13.5%",
     "Medium(+)",
     "Medium",
     "Steel",
@@ -419,17 +415,17 @@
     "Vermentino, Albariño, Greek-white drinkers"
    ],
    [
-    "Monje Tinto Amorio",
+    "Tinto Amorio Monje 2024",
     "$11",
-    "—",
-    "Medium(+)",
+    "12.4%",
+    "Medium(−)",
     "Medium",
-    "Check label",
-    "14–16°C / 57–61°F",
-    "Beaujolais and light-red fans"
+    "9 days on skins",
+    "8–12°C / 46–54°F",
+    "Natural-wine and orange-wine fans"
    ],
    [
-    "Ardhuy Ladoix Rouge",
+    "Ardhuy Ladoix 2023",
     "$20",
     "—",
     "Medium(+)",
@@ -443,17 +439,17 @@
    {
     "title": "Tasting order for a flight",
     "items": [
-     "Sancerre → Furore Bianco → Tenerife → Ladoix.",
-     "The racy, light Sancerre first; the rounder Amalfi white second.",
-     "The juicy Tenerife red before the more structured Burgundy."
+     "Sancerre → Furore Bianco → Monje → Ladoix.",
+     "The racy Sancerre first, then the rounder Amalfi white.",
+     "The aromatic, grippy orange wine bridges into the red."
     ]
    },
    {
     "title": "Across the library",
     "items": [
      "Furore Bianco and the Cuomo Rosato (Oct 28): same estate, same cliffs.",
-     "Ladoix vs Guérin Hautes-Côtes (Oct 28): Burgundy village level vs regional level.",
-     "Tenerife and Moulin-à-Vent (Nov 9): two reds where carbonic maceration is part of the story."
+     "Ladoix 2023 vs Guérin Hautes-Côtes 2024 (Oct 28): village vs regional level, and a hot, generous vintage vs a cool, wet one.",
+     "Monje vs Bedrock Ode to Lulu (Nov 16): two California wines at opposite ends of skin contact, 9 days vs direct press."
     ]
    }
   ]

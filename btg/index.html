@@ -173,7 +173,7 @@ footer a{color:inherit}
 <script src="maps.js"></script>
 <script>
 const S={int:["Light","Medium(−)","Medium","Medium(+)","Pronounced"],std:["Low","Medium(−)","Medium","Medium(+)","High"],alc:["Low","Medium","High"],body:["Light","Medium(−)","Medium","Medium(+)","Full"],fin:["Short","Medium(−)","Medium","Medium(+)","Long"]};
-const TYPE={white:"White",rose:"Rosé",red:"Red"};
+const TYPE={white:"White",orange:"Orange",rose:"Rosé",red:"Red"};
 let WEEKS=[]; let typeFilter="all"; let libView="list";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -262,8 +262,8 @@ function libMapHTML(){
 }
 function libraryHTML(){
  const all=WEEKS.flatMap(wk=>(wk.wines||[]).map(w=>({wk,w})));
- const counts={all:all.length,white:0,rose:0,red:0}; all.forEach(x=>{if(counts[x.w.type]!=null)counts[x.w.type]++});
- const chips=["all","white","rose","red"].map(t=>`<button class="chip" data-type="${t}" aria-pressed="${typeFilter===t}">${t==="all"?"All":TYPE[t]} · ${counts[t]}</button>`).join("");
+ const counts={all:all.length,white:0,orange:0,rose:0,red:0}; all.forEach(x=>{if(counts[x.w.type]!=null)counts[x.w.type]++});
+ const chips=["all","white","orange","rose","red"].filter(t=>t==="all"||counts[t]).map(t=>`<button class="chip" data-type="${t}" aria-pressed="${typeFilter===t}">${t==="all"?"All":TYPE[t]} · ${counts[t]}</button>`).join("");
  const groups=WEEKS.map(wk=>{const ws=(wk.wines||[]).filter(w=>typeFilter==="all"||w.type===typeFilter);if(!ws.length)return "";
   return `<div class="lib-week"><h3>${esc(wk.label)}</h3><div class="lib-grid">${ws.map(w=>`<button class="lib-card" data-go="${wk.id}-${w.id}"><span class="sw" style="background:${esc(w.wine)}"></span><div><div class="nm">${esc(w.name)}</div><div class="rg">${esc((w.sub||"").split(" · ").slice(-1)[0])}</div></div><span class="pr">$${esc(w.price)}</span></button>`).join("")}</div></div>`}).join("");
  return `<section class="panel"><div><h2 class="page">Library</h2><div class="sub">${all.length} wines across ${WEEKS.length} ${WEEKS.length===1?"week":"weeks"}. Tap one to open its study card.</div></div>
